@@ -8,6 +8,14 @@ import Infrastructure.UserArticleMappingImpl;
 import Infrastructure.UserDAOImpl;
 import java.util.List;
 
+/**
+ * Represents an application service layer which
+ * is used to manipulate the data in
+ * the table Articles from the Database shopkonditoreidb
+ *
+ * The application service layer can only be used by
+ * users who have admin rights.
+ */
 public class AServiceLayer {
     private static ArticleDAO articleDAO;
     private static UserDAO userDAO;
@@ -19,6 +27,19 @@ public class AServiceLayer {
 
     }
 
+    /**
+     * Returns an instance from this class
+     * Only users who have admin rights will
+     * get an instance of the
+     * ApplicationServiceLayer-object
+     *
+     * @param username username
+     * @param password password
+     * @return an instance of the
+     * ApplicationServiceLayer-object or
+     * null if the provided credentials dont't belong
+     * to a user with admin rights.
+     */
     public static AServiceLayer getASLInstance(String username, String password){
         articleDAO = new ArticleDAOImpl();
         userDAO = new UserDAOImpl();
@@ -98,12 +119,28 @@ public class AServiceLayer {
         }
     }
 
+    /**
+     * Stores an article in the Database
+     *
+     * @param uid uid of the new article
+     * @param articlename articlename of the new article
+     * @param price price of the new article
+     * @param discount whether the article is on sale or not
+     */
     public void storeNewArticleInDB(int uid, String articlename, double price, boolean discount){
         Article a = new Article(uid, articlename, price, discount);
 
         articleDAO.createNewArticle(a);
     }
 
+    /**
+     * Deletes an article in the Database
+     *
+     * @param uid uid of the article that should be deleted
+     * @param articlename articlename of the article that should be deleted
+     * @param price price of the article that should be deleted
+     * @param discount whether the deleted article is on sale or not
+     */
     public void deleteArticleInDB(int uid, String articlename, double price, boolean discount)
     {
         Article a = new Article(uid, articlename, price, discount);
@@ -122,25 +159,6 @@ public class AServiceLayer {
             System.out.println(a);
         }
     }
-
-    /*
-    public void subscribeToSalesOnArticle(int uid, String articlename, double price, boolean discount)
-    {
-        List<Article> articles = articleDAO.readAllArticles();
-
-        Article keyArticle = new Article(uid);
-        keyArticle.setArticleName(articlename);
-        keyArticle.setPrice(price);
-        keyArticle.setDiscount(discount);
-
-        for(Article a : articles)
-        {
-            if(a.equals(keyArticle))
-            {
-                a.register(userUsingSystem);
-            }
-        }
-    }*/
 
     /**
      * Sets the article on discount, but only if
