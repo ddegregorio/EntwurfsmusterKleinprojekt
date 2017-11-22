@@ -19,7 +19,6 @@ class AServiceLayerTest {
     void storeNewArticleInDB() {
         if(asl != null){
             asl.storeNewArticleInDB(5000, "articleTest", 5.8, false);
-
         }
         else{
             assertFalse(true);

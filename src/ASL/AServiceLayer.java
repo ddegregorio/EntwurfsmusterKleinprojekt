@@ -173,4 +173,18 @@ public class AServiceLayer {
         }
     }
 
+    /**
+     * Returns an article from the Database by its
+     * id.
+     *
+     * @param a_id the id of the article
+     *
+     * @return article object if the article with the provided id
+     * has been found in the Database
+     * null if the article has not been found in the Database
+     */
+    public Article getArticleById(int a_id)
+    {
+        return articleDAO.getArticleById(a_id);
+    }
 }
