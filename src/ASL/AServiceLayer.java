@@ -97,7 +97,7 @@ public class AServiceLayer {
             a.register(u);
         }
     }
-/*
+
     public void storeNewArticleInDB(int uid, String articlename, double price, boolean discount){
         Article a = new Article(uid);
         a.setArticleName(articlename);
@@ -115,7 +115,7 @@ public class AServiceLayer {
         a.setDiscount(discount);
 
         articleDAO.deleteArticle(a);
-    }*/
+    }
 
     /**
      * Prints all the articles from the Database.
@@ -172,4 +172,5 @@ public class AServiceLayer {
             }
         }
     }
+
 }
