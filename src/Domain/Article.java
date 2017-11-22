@@ -94,6 +94,6 @@ public class Article extends ArticleOnSale{
     @Override
     public String toString()
     {
-        return a_id+"\t\t" + String.format("%1$13s", articleName) + "\t\t" + price + "\t\t\t" + discount;
+        return String.format("%1$4s", a_id)+"\t\t" + String.format("%1$34s", articleName) + "\t\t\t" + price + "\t\t\t" + discount;
     }
 }

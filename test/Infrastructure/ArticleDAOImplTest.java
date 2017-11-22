@@ -157,7 +157,6 @@ class ArticleDAOImplTest {
         else{
             assertFalse(true);
         }
-
     }
 
 

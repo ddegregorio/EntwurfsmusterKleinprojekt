@@ -122,7 +122,7 @@ public class AServiceLayer {
      */
     public void printAllArticlesFromDB()
     {
-        System.out.println("Nr.\t\tDescription\t\t\tPrice\t\tDiscount");
+        System.out.println("Nr.\t\t\t\t\t\t\t\tDescription\t\t\t\tPrice\t\tDiscount");
         for(Article a : articleDAO.readAllArticles())
         {
             System.out.println(a);
@@ -157,19 +157,13 @@ public class AServiceLayer {
      */
     public void setDiscountOnArticle(int uid)
     {
-        for(Article a : articleDAO.readAllArticles())
-        {
-            if (a.getA_id() == uid)
-            {
-                if(a.isDiscount() == false){
-                    a.setDiscount(true);
-                    articleDAO.updateArticle(a);
-                    System.out.println("Article with Articlenr "+ uid + " has been set on sale.");
-                }
-                else{
-                    System.out.println("Article is already on sale!");
-                }
-            }
+        Article a = articleDAO.getArticleById(uid);
+
+        if(a.isDiscount()){
+            System.out.println("Article is already on sale!");
+        }else{
+            a.setDiscount(true);
+            System.out.println("Article with Articlenr "+ uid + " has been set on sale.");
         }
     }
 
