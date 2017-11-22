@@ -159,7 +159,7 @@ public class AServiceLayer {
             if(a.isDiscount()){
                 System.out.println("Article is already on sale!");
             }else{
-                articleDAO.updateArticle(a);
+                articleDAO.updateArticle(withDiscount);
                 System.out.println("Article with Articlenr "+ uid + " has been set on sale.");
             }
         }

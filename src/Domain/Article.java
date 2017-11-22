@@ -49,7 +49,13 @@ public class Article extends ArticleOnSale{
      */
     public void setDiscount(boolean discount) {
         this.discount = discount;
-        notifyUser(this);
+
+        // notify user if the discount has been
+        // set to true
+        if(discount){
+            notifyUser(this);
+        }
+
     }
 
     /**

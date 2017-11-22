@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c81934f-2096-4ddf-8d3e-5f6b143af215" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/DemoApp/Main$1.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/DemoApp/Main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/DemoApp/Main.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/DemoApp/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/Article.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/Article.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/EntwurfsmusterKleinprojekt/Infrastructure/ArticleDAOImplTest.class" afterPath="$PROJECT_DIR$/out/test/EntwurfsmusterKleinprojekt/Infrastructure/ArticleDAOImplTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Infrastructure/ArticleDAOImpl.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Infrastructure/ArticleDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/EntwurfsmusterKleinprojekt/Domain/ArticleTest.class" afterPath="$PROJECT_DIR$/out/test/EntwurfsmusterKleinprojekt/Domain/ArticleTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASL/AServiceLayer.java" afterPath="$PROJECT_DIR$/src/ASL/AServiceLayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/Article.java" afterPath="$PROJECT_DIR$/src/Domain/Article.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" afterPath="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Domain/ArticleTest.java" afterPath="$PROJECT_DIR$/test/Domain/ArticleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java" afterPath="$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Article.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+            <state relative-caret-position="408">
+              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -83,8 +77,8 @@
       <file leaf-file-name="ArticleDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="94" column="12" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="102" selection-end-column="13" />
+            <state relative-caret-position="130">
+              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
               <folding>
                 <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
                 <marker date="1511369199951" expanded="true" signature="1602:1637" ph="DELETE FROM " />
@@ -115,33 +109,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DemoApp/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2159">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-              <folding>
-                <element signature="e#3277#3278#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AServiceLayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="155" column="96" lean-forward="false" selection-start-line="155" selection-start-column="96" selection-end-line="155" selection-end-column="96" />
+            <state relative-caret-position="413">
+              <caret line="161" column="55" lean-forward="true" selection-start-line="161" selection-start-column="55" selection-end-line="161" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserArticleMappingDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ASL/UserArticleMappingDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -224,11 +216,11 @@
         <option value="$PROJECT_DIR$/test/ASL/AServiceLayerTest.java" />
         <option value="$USER_HOME$/Desktop/mysql-connector-java-5.1.44-bin.jar!/com/mysql/jdbc/NonRegisteringDriver.class" />
         <option value="$USER_HOME$/Desktop/mysql-connector-java-5.1.44-bin.jar!/com/mysql/jdbc/ResultSetImpl.class" />
-        <option value="$PROJECT_DIR$/src/Domain/Article.java" />
         <option value="$PROJECT_DIR$/test/Domain/ArticleTest.java" />
         <option value="$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java" />
         <option value="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/ASL/AServiceLayer.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Article.java" />
       </list>
     </option>
   </component>
@@ -561,7 +553,7 @@
       <workItem from="1511361113066" duration="44000" />
       <workItem from="1511361368932" duration="1158000" />
       <workItem from="1511363156244" duration="5586000" />
-      <workItem from="1511369088534" duration="517000" />
+      <workItem from="1511369088534" duration="784000" />
     </task>
     <task id="LOCAL-00001" summary="adds different methods in ArticleDAOImpl and UserDAOImpl">
       <created>1510965909544</created>
@@ -619,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511368696402</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;             AServiceLayer">
+      <created>1511369620223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1511369620223</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -655,7 +654,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101555000" />
+    <option name="totallyTimeSpent" value="101822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,7 +667,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -678,7 +676,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.28489584" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -717,7 +715,8 @@
     <MESSAGE value="adds different test classes" />
     <MESSAGE value="adds the method &quot;Article getArticleByID(int a_id)&quot; to &#10;the class AServiceLayer" />
     <MESSAGE value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;AServiceLayer" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;AServiceLayer" />
+    <MESSAGE value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;             AServiceLayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;             AServiceLayer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1292,14 +1291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASL/UserArticleMappingDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/UserArticleMappingImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
@@ -1356,14 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Domain/ArticleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1383,10 +1366,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="94" column="12" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="102" selection-end-column="13" />
+        <state relative-caret-position="130">
+          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
           <folding>
             <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
             <marker date="1511369199951" expanded="true" signature="1602:1637" ph="DELETE FROM " />
@@ -1396,18 +1387,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
+    <entry file="file://$PROJECT_DIR$/src/ASL/UserArticleMappingDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="155" column="96" lean-forward="false" selection-start-line="155" selection-start-column="96" selection-end-line="155" selection-end-column="96" />
+        <state relative-caret-position="170">
+          <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
+    <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="413">
+          <caret line="161" column="55" lean-forward="true" selection-start-line="161" selection-start-column="55" selection-end-line="161" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
           <folding />
         </state>
       </provider>
