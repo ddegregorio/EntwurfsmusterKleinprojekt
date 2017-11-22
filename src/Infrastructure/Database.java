@@ -8,9 +8,9 @@ public class Database {
     private static Connection connection = null;
 
     private final static String HOST = "127.0.0.1";
-    private final static String USER = "userShopDB";
-    private final static String PASSWORD = "test";
-    private final static String DATABASE = "shopDB";
+    private final static String USER = "root";
+    private final static String PASSWORD = "";
+    private final static String DATABASE = "shopkonditoreidb";
     private final static int PORT = 3306;
 
 
