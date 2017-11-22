@@ -4,24 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class ArticleOnSale {
-    private List<User> users = new ArrayList<>();
+    private List<Observer> observers = new ArrayList<>();
 
     /**
      * registers users who are interested
      * when this article is on sale
-     * @param u
+     * @param o
      */
-    public void register(User u){
-        users.add(u);
+    public void register(Observer o){
+        observers.add(o);
     }
 
     /**
      * unregisters users from the list of users who get
      * notified when the article is on sale
-     * @param u
+     * @param o
      */
-    public void unregister(User u){
-        users.remove(u);
+    public void unregister(Observer o){
+        observers.remove(o);
     }
 
     /**
@@ -30,8 +30,8 @@ public abstract class ArticleOnSale {
      * @param a article that is on sale
      */
     public void notifyUser(Article a){
-        for(User u : users){
-            u.notify(a);
+        for(Observer o : observers){
+            o.notify(a);
         }
     }
 }

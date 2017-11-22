@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c81934f-2096-4ddf-8d3e-5f6b143af215" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopkonditoreidb.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Infrastructure/Database.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Infrastructure/Database.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Infrastructure/Database.java" afterPath="$PROJECT_DIR$/src/Infrastructure/Database.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" afterPath="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,22 +51,19 @@
       <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
+            <state relative-caret-position="0">
               <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleOnSale.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArticleOnSale.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Domain/ArticleOnSale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,12 +83,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Infrastructure/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/Infrastructure.Database" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/Infrastructure.Database">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Infrastructure.Database</OriginalElement>
+              <nodes>
+                <node x="6.386904761904759" y="80.0">Domain.User</node>
+                <node x="41.702380952380956" y="0.0">Domain.Observer</node>
+                <node x="11.5" y="158.0">Domain.ArticleOnSale</node>
+                <node x="28.761904761904766" y="240.0">Domain.Article</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Domain.ArticleOnSale" target="Domain.Article">
+                  <point x="30.25" y="15.0" />
+                  <point x="101.25" y="210.0" />
+                  <point x="81.26190476190476" y="210.0" />
+                  <point x="10.5" y="-15.0" />
+                </edge>
+                <edge source="Domain.User" target="Domain.Observer">
+                  <point x="0.0" y="-15.0" />
+                  <point x="42.88690476190476" y="55.0" />
+                  <point x="65.95238095238096" y="55.0" />
+                  <point x="-24.25" y="15.0" />
+                </edge>
+                <edge source="Domain.ArticleOnSale" target="Domain.User">
+                  <point x="30.25" y="-15.0" />
+                  <point x="101.25" y="135.0" />
+                  <point x="67.22023809523809" y="135.0" />
+                  <point x="24.33333333333333" y="15.0" />
+                </edge>
+                <edge source="Domain.Article" target="Domain.ArticleOnSale">
+                  <point x="-10.5" y="-15.0" />
+                  <point x="60.261904761904766" y="210.0" />
+                  <point x="40.75" y="210.0" />
+                  <point x="-30.25" y="15.0" />
+                </edge>
+                <edge source="Domain.User" target="Domain.Article">
+                  <point x="-24.33333333333333" y="15.0" />
+                  <point x="18.55357142857143" y="135.0" />
+                  <point x="0.0" y="135.0" />
+                  <point x="0.0" y="220.0" />
+                  <point x="39.261904761904766" y="220.0" />
+                  <point x="-31.5" y="-15.0" />
+                </edge>
+                <edge source="Domain.Observer" target="Domain.Article">
+                  <point x="24.25" y="15.0" />
+                  <point x="114.45238095238096" y="55.0" />
+                  <point x="142.0" y="55.0" />
+                  <point x="142.0" y="220.0" />
+                  <point x="102.26190476190476" y="220.0" />
+                  <point x="31.5" y="-15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-477.5" y="-178.5" />
+              <SelectedNodes>
+                <node>Domain.ArticleOnSale</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -185,7 +246,6 @@
         <option value="$PROJECT_DIR$/src/ASL/ArticleDAO.java" />
         <option value="$PROJECT_DIR$/src/ASL/UserDAO.java" />
         <option value="$USER_HOME$/Downloads/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar!/com/mysql/fabric/jdbc/FabricMySQLDriver.class" />
-        <option value="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" />
         <option value="$PROJECT_DIR$/src/Domain/Observer.java" />
         <option value="$PROJECT_DIR$/test/Domain/ArticleOnSaleTest.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
@@ -210,6 +270,7 @@
         <option value="$PROJECT_DIR$/src/Domain/Article.java" />
         <option value="$PROJECT_DIR$/src/Domain/User.java" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Database.java" />
+        <option value="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" />
       </list>
     </option>
   </component>
@@ -316,7 +377,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -545,7 +606,7 @@
       <workItem from="1511369088534" duration="1234000" />
       <workItem from="1511371327375" duration="350000" />
       <workItem from="1511371711292" duration="84000" />
-      <workItem from="1511371821860" duration="20000" />
+      <workItem from="1511371821860" duration="1381000" />
     </task>
     <task id="LOCAL-00001" summary="adds different methods in ArticleDAOImpl and UserDAOImpl">
       <created>1510965909544</created>
@@ -624,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511370261081</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adds shopkonditoreidb.sql&#10;&#10;this file is needed to be able to create the database">
+      <created>1511371907932</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1511371907932</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -660,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102726000" />
+    <option name="totallyTimeSpent" value="104087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,20 +741,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.28489584" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3257329" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -700,7 +770,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32339954" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28837952" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -724,7 +793,8 @@
     <MESSAGE value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;             AServiceLayer" />
     <MESSAGE value="changes method &quot;void setDiscount(boolean discount)&quot;" />
     <MESSAGE value="changes method &quot;void notify(Article a)&quot; in class User.&#10;&#10;A different message will be printed out now if the article is on&#10;sale." />
-    <option name="LAST_COMMIT_MESSAGE" value="changes method &quot;void notify(Article a)&quot; in class User.&#10;&#10;A different message will be printed out now if the article is on&#10;sale." />
+    <MESSAGE value="adds shopkonditoreidb.sql&#10;&#10;this file is needed to be able to create the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds shopkonditoreidb.sql&#10;&#10;this file is needed to be able to create the database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -744,14 +814,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Infracstructure/Database.java" />
     <entry file="file://$PROJECT_DIR$/src/ASL/ArticleDAO.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1334,17 +1396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/ArticleOnSale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Domain/ArticleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1395,7 +1446,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
+        <state relative-caret-position="0">
           <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
           <folding />
         </state>
@@ -1412,8 +1463,80 @@
     <entry file="file://$PROJECT_DIR$/shopkonditoreidb.sql" />
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Infrastructure.Database">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Infrastructure.Database</OriginalElement>
+          <nodes>
+            <node x="6.386904761904759" y="80.0">Domain.User</node>
+            <node x="41.702380952380956" y="0.0">Domain.Observer</node>
+            <node x="11.5" y="158.0">Domain.ArticleOnSale</node>
+            <node x="28.761904761904766" y="240.0">Domain.Article</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Domain.ArticleOnSale" target="Domain.Article">
+              <point x="30.25" y="15.0" />
+              <point x="101.25" y="210.0" />
+              <point x="81.26190476190476" y="210.0" />
+              <point x="10.5" y="-15.0" />
+            </edge>
+            <edge source="Domain.User" target="Domain.Observer">
+              <point x="0.0" y="-15.0" />
+              <point x="42.88690476190476" y="55.0" />
+              <point x="65.95238095238096" y="55.0" />
+              <point x="-24.25" y="15.0" />
+            </edge>
+            <edge source="Domain.ArticleOnSale" target="Domain.User">
+              <point x="30.25" y="-15.0" />
+              <point x="101.25" y="135.0" />
+              <point x="67.22023809523809" y="135.0" />
+              <point x="24.33333333333333" y="15.0" />
+            </edge>
+            <edge source="Domain.Article" target="Domain.ArticleOnSale">
+              <point x="-10.5" y="-15.0" />
+              <point x="60.261904761904766" y="210.0" />
+              <point x="40.75" y="210.0" />
+              <point x="-30.25" y="15.0" />
+            </edge>
+            <edge source="Domain.User" target="Domain.Article">
+              <point x="-24.33333333333333" y="15.0" />
+              <point x="18.55357142857143" y="135.0" />
+              <point x="0.0" y="135.0" />
+              <point x="0.0" y="220.0" />
+              <point x="39.261904761904766" y="220.0" />
+              <point x="-31.5" y="-15.0" />
+            </edge>
+            <edge source="Domain.Observer" target="Domain.Article">
+              <point x="24.25" y="15.0" />
+              <point x="114.45238095238096" y="55.0" />
+              <point x="142.0" y="55.0" />
+              <point x="142.0" y="220.0" />
+              <point x="102.26190476190476" y="220.0" />
+              <point x="31.5" y="-15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-477.5" y="-178.5" />
+          <SelectedNodes>
+            <node>Domain.ArticleOnSale</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/ArticleOnSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
