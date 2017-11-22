@@ -1,5 +1,9 @@
 package Domain;
 
+/**
+ * Represents a Data tranfer object for the table
+ * users from the Database shopkonditoreidb
+ */
 public class User implements Observer{
     private int u_id;
     private String username;
@@ -48,8 +52,9 @@ public class User implements Observer{
 
 
     /**
-     *
-     * @param a
+     * This method will be called when articles, on which
+     * this user has registered, are set on sale.
+     * @param a the article that has been set on sale
      */
     @Override
     public void notify(Article a) {

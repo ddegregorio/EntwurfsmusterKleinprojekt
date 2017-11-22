@@ -4,6 +4,9 @@ import ASL.AServiceLayer;
 
 import java.util.Scanner;
 
+/**
+ * Class that demonstrates the features of the class AServiceLayer
+ */
 public class Main {
     private static AServiceLayer asl;
 

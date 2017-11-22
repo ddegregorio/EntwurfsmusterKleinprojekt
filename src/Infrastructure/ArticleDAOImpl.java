@@ -6,6 +6,12 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents the Implementation of the interface
+ * ArticleDAO
+ * This class is used to manipulate the table articles from
+ * the Database userarticlemappings
+ */
 public class ArticleDAOImpl  implements ArticleDAO {
     List<Article> articles;
 

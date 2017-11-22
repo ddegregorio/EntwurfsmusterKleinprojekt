@@ -2,6 +2,14 @@ package DemoApp;
 
 import java.util.Scanner;
 
+/**
+ * Class that is used to parse the input, which
+ * the user has typed on the command line.
+ *
+ * The class will try to recognize commands
+ * that the user has typed on the command line and
+ * will return the corresponding command-objects.
+ */
 public class Parser {
     private Scanner reader;
     private ValidCommands validCommands;
@@ -12,10 +20,10 @@ public class Parser {
     }
 
     /**
-     * parses the Line and returns a command object
-     * that it could read from the line
+     * parses the command line and returns a Command-object
+     * that has been read from the command line
      *
-     * @return
+     * @return Command-object
      */
     public Command getCommand(){
         String line = reader.nextLine();

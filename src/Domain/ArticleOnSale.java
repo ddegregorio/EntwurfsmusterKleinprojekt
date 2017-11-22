@@ -3,6 +3,11 @@ package Domain;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents a class that holds
+ * different observers that will be notified if an
+ * article is on sale.
+ */
 public abstract class ArticleOnSale {
     private List<Observer> observers = new ArrayList<>();
 

@@ -1,5 +1,9 @@
 package Domain;
 
+/**
+ * Represents a Data tranfer object for the table
+ * userarticlemappings from the Database shopkonditoreidb
+ */
 public class UserArticleMapping {
     private int u_id;
     private int a_id;

@@ -7,6 +7,12 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents the Implementation of the interface
+ * UserDAO
+ * This class is used to manipulate the table users from
+ * the Database shopkonditoreidb
+ */
 public class UserDAOImpl implements UserDAO {
     List<User> users;
 
@@ -25,7 +31,7 @@ public class UserDAOImpl implements UserDAO {
         String sql = "INSERT INTO `users`(`u_id`, `u_username`, `u_password`, `admin`) VALUES (?, ?, ?, ?);";
 
         try{
-            // TODO Check if user already exists
+            // TODO Check if the user already exists
             Connection conn = Database.getDatabaseConnectionInstance();
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
             preparedStatement.setInt(1, u.getU_id());

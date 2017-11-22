@@ -4,6 +4,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * Represents a class with can be used
+ * to get a reference to a Connection object
+ * used for communicating with a Database
+ */
 public class Database {
     private static Connection connection = null;
 
@@ -21,7 +26,7 @@ public class Database {
 
     /**
      * Returns an instance to the Connection Object of the Database
-     * @return instance
+     * @return instance Connection-object
      */
     public static Connection getDatabaseConnectionInstance()
     {
@@ -83,8 +88,7 @@ public class Database {
      */
     private static String getConnectionString()
     {
-        String connectionString = "jdbc:mysql://"+HOST + ":" + PORT + "/" + DATABASE +"?user="+ USER + "&password=" + PASSWORD;
-        return connectionString;
+        return "jdbc:mysql://"+HOST + ":" + PORT + "/" + DATABASE +"?user="+ USER + "&password=" + PASSWORD;
     }
 
 

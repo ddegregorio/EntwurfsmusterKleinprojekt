@@ -1,5 +1,9 @@
 package Domain;
 
+/**
+ * Represents a Data tranfer object for the table
+ * articles from the Database shopkonditoreidb
+ */
 public class Article extends ArticleOnSale{
     private int a_id;
     private String articleName;
@@ -99,6 +103,10 @@ public class Article extends ArticleOnSale{
         return (articleName + price + discount).hashCode();
     }
 
+    /**
+     * Returns a String representation of this object
+     * @return String representation of this object
+     */
     @Override
     public String toString()
     {

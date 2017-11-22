@@ -3,6 +3,10 @@ package DemoApp;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * Class that holds a mapping between Strings
+ * and Command-objects
+ */
 public class ValidCommands {
 
     // mapping between strings and commands

@@ -7,6 +7,12 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents the Implementation of the interface
+ * UserArticleMappingDAO
+ * This class is used to manipulate the table userarticlemappings from
+ * the Database shopkonditoreidb
+ */
 public class UserArticleMappingImpl implements UserArticleMappingDAO{
     List<UserArticleMapping> userArticleMappings;
 
@@ -17,6 +23,7 @@ public class UserArticleMappingImpl implements UserArticleMappingDAO{
 
     /**
      * Creates a new UserArticle mapping in the Database
+     * and in memory
      * @param uaMapping mapping between user and article
      */
     @Override
@@ -104,6 +111,12 @@ public class UserArticleMappingImpl implements UserArticleMappingDAO{
         return userArticleMappings;
     }
 
+    /**
+     * Deletes a new UserArticle mapping in the Database
+     * and in memory
+     * @param u_id u_id from the table users that takes part in the mapping
+     * @param a_id a_id from the table articles that takes part in the mapping
+     */
     @Override
     public void deleteUserArticleMapping(int u_id, int a_id)
     {
