@@ -53,7 +53,7 @@ public class Article extends ArticleOnSale{
         // notify user if the discount has been
         // set to true
         if(discount){
-            notifyUser(this);
+            notifyObservers(this);
         }
 
     }

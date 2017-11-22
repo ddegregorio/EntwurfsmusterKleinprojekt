@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c81934f-2096-4ddf-8d3e-5f6b143af215" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/ArticleOnSale.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/ArticleOnSale.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/Article.java" afterPath="$PROJECT_DIR$/src/Domain/Article.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" afterPath="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,8 +54,8 @@
       <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="-23">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,23 +64,22 @@
       <file leaf-file-name="ArticleOnSale.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Domain/ArticleOnSale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="408">
+              <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
+      <file leaf-file-name="UserDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Infrastructure/UserDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
-                <marker date="1511369199951" expanded="true" signature="1602:1637" ph="DELETE FROM " />
-                <marker date="1511369199951" expanded="true" signature="2316:2421" ph="UPDATE `arti... " />
-                <marker date="1511369199951" expanded="true" signature="3795:3817" ph="SELECT * FRO... articles" />
+                <marker date="1511376729423" expanded="true" signature="573:657" ph="INSERT INTO `users`... " />
+                <marker date="1511376729423" expanded="true" signature="1616:1635" ph="SELECT * FRO... users" />
+                <marker date="1511376729423" expanded="true" signature="3338:3370" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -100,55 +102,51 @@
               <ID>JAVA</ID>
               <OriginalElement>Infrastructure.Database</OriginalElement>
               <nodes>
-                <node x="6.386904761904759" y="80.0">Domain.User</node>
-                <node x="41.702380952380956" y="0.0">Domain.Observer</node>
-                <node x="11.5" y="158.0">Domain.ArticleOnSale</node>
-                <node x="28.761904761904766" y="240.0">Domain.Article</node>
+                <node x="55.928571428571416" y="240.0">Domain.User</node>
+                <node x="0.0" y="160.0">Domain.Observer</node>
+                <node x="8.053571428571416" y="0.0">Domain.ArticleOnSale</node>
+                <node x="58.999999999999986" y="80.0">Domain.Article</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="Domain.ArticleOnSale" target="Domain.Article">
-                  <point x="30.25" y="15.0" />
-                  <point x="101.25" y="210.0" />
-                  <point x="81.26190476190476" y="210.0" />
-                  <point x="10.5" y="-15.0" />
+                  <point x="45.375" y="15.0" />
+                  <point x="113.92857142857142" y="55.0" />
+                  <point x="121.99999999999999" y="55.0" />
+                  <point x="21.0" y="-15.0" />
+                </edge>
+                <edge source="Domain.ArticleOnSale" target="Domain.Observer">
+                  <point x="-15.125" y="15.0" />
+                  <point x="53.428571428571416" y="55.0" />
+                  <point x="46.303571428571416" y="55.0" />
+                  <point x="46.303571428571416" y="135.0" />
+                  <point x="48.49999999999999" y="135.0" />
+                  <point x="-7.105427357601002E-15" y="-15.0" />
                 </edge>
                 <edge source="Domain.User" target="Domain.Observer">
-                  <point x="0.0" y="-15.0" />
-                  <point x="42.88690476190476" y="55.0" />
-                  <point x="65.95238095238096" y="55.0" />
-                  <point x="-24.25" y="15.0" />
-                </edge>
-                <edge source="Domain.ArticleOnSale" target="Domain.User">
-                  <point x="30.25" y="-15.0" />
-                  <point x="101.25" y="135.0" />
-                  <point x="67.22023809523809" y="135.0" />
-                  <point x="24.33333333333333" y="15.0" />
+                  <point x="-18.25" y="-15.0" />
+                  <point x="74.17857142857142" y="215.0" />
+                  <point x="48.5" y="215.0" />
+                  <point x="0.0" y="15.0" />
                 </edge>
                 <edge source="Domain.Article" target="Domain.ArticleOnSale">
-                  <point x="-10.5" y="-15.0" />
-                  <point x="60.261904761904766" y="210.0" />
-                  <point x="40.75" y="210.0" />
-                  <point x="-30.25" y="15.0" />
+                  <point x="-21.0" y="-15.0" />
+                  <point x="79.99999999999999" y="55.0" />
+                  <point x="83.67857142857142" y="55.0" />
+                  <point x="15.125" y="15.0" />
                 </edge>
                 <edge source="Domain.User" target="Domain.Article">
-                  <point x="-24.33333333333333" y="15.0" />
-                  <point x="18.55357142857143" y="135.0" />
-                  <point x="0.0" y="135.0" />
-                  <point x="0.0" y="220.0" />
-                  <point x="39.261904761904766" y="220.0" />
-                  <point x="-31.5" y="-15.0" />
+                  <point x="18.25" y="-15.0" />
+                  <point x="110.67857142857142" y="215.0" />
+                  <point x="121.99999999999999" y="215.0" />
+                  <point x="21.0" y="15.0" />
                 </edge>
                 <edge source="Domain.Observer" target="Domain.Article">
-                  <point x="24.25" y="15.0" />
-                  <point x="114.45238095238096" y="55.0" />
-                  <point x="142.0" y="55.0" />
-                  <point x="142.0" y="220.0" />
-                  <point x="102.26190476190476" y="220.0" />
-                  <point x="31.5" y="-15.0" />
+                  <point x="32.33333333333334" y="-15.0" />
+                  <point x="-21.0" y="15.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-477.5" y="-178.5" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-463.0" y="2.0" />
               <SelectedNodes>
                 <node>Domain.ArticleOnSale</node>
               </SelectedNodes>
@@ -159,22 +157,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AServiceLayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Domain/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2635">
-              <caret line="161" column="55" lean-forward="false" selection-start-line="161" selection-start-column="55" selection-end-line="161" selection-end-column="55" />
+            <state relative-caret-position="68">
+              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserArticleMappingDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ASL/UserArticleMappingDAO.java">
+      <file leaf-file-name="AServiceLayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="283">
+              <caret line="158" column="30" lean-forward="true" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-289">
+              <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+              <folding>
+                <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
+                <marker date="1511369199951" expanded="true" signature="1602:1637" ph="DELETE FROM " />
+                <marker date="1511369199951" expanded="true" signature="2316:2421" ph="UPDATE `arti... " />
+                <marker date="1511369199951" expanded="true" signature="3795:3817" ph="SELECT * FRO... articles" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,19 +198,6 @@
             <state relative-caret-position="136">
               <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Domain/ArticleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-              <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -254,7 +254,6 @@
         <option value="$PROJECT_DIR$/src/DemoApp/Command.java" />
         <option value="$PROJECT_DIR$/src/DemoApp/Parser.java" />
         <option value="$PROJECT_DIR$/src/DemoApp/ValidCommands.java" />
-        <option value="$PROJECT_DIR$/src/Infrastructure/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/test/Infrastructure/UserDAOImplTest.java" />
         <option value="$PROJECT_DIR$/src/ASL/UserArticleMappingDAO.java" />
         <option value="$PROJECT_DIR$/test/Infrastructure/UserArticleMappingImplTest.java" />
@@ -266,10 +265,11 @@
         <option value="$PROJECT_DIR$/test/Domain/ArticleTest.java" />
         <option value="$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java" />
         <option value="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/ASL/AServiceLayer.java" />
         <option value="$PROJECT_DIR$/src/Domain/Article.java" />
         <option value="$PROJECT_DIR$/src/Domain/User.java" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Database.java" />
+        <option value="$PROJECT_DIR$/src/Infrastructure/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/ASL/AServiceLayer.java" />
         <option value="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" />
       </list>
     </option>
@@ -302,9 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,6 +367,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -606,7 +606,8 @@
       <workItem from="1511369088534" duration="1234000" />
       <workItem from="1511371327375" duration="350000" />
       <workItem from="1511371711292" duration="84000" />
-      <workItem from="1511371821860" duration="1381000" />
+      <workItem from="1511371821860" duration="1620000" />
+      <workItem from="1511376600269" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="adds different methods in ArticleDAOImpl and UserDAOImpl">
       <created>1510965909544</created>
@@ -692,7 +693,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511371907932</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changes class ArticleOnSale to use the interface Observers">
+      <created>1511376288569</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1511376288569</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -728,7 +736,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104087000" />
+    <option name="totallyTimeSpent" value="104986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -752,11 +760,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.28489584" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3257329" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32502708" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18496802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -794,7 +802,8 @@
     <MESSAGE value="changes method &quot;void setDiscount(boolean discount)&quot;" />
     <MESSAGE value="changes method &quot;void notify(Article a)&quot; in class User.&#10;&#10;A different message will be printed out now if the article is on&#10;sale." />
     <MESSAGE value="adds shopkonditoreidb.sql&#10;&#10;this file is needed to be able to create the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds shopkonditoreidb.sql&#10;&#10;this file is needed to be able to create the database" />
+    <MESSAGE value="changes class ArticleOnSale to use the interface Observers" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes class ArticleOnSale to use the interface Observers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1259,13 +1268,6 @@
     <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar!/com/mysql/jdbc/NonRegisteringDriver.class" />
     <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar!/com/mysql/jdbc/Driver.class" />
     <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar!/com/mysql/jdbc/ResultSetImpl.class" />
-    <entry file="file://$PROJECT_DIR$/src/Domain/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Domain/ArticleOnSaleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1329,13 +1331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Infrastructure/UserDAOImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1364,11 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="101" column="9" lean-forward="false" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding>
-            <marker date="1511363146870" expanded="true" signature="659:722" ph="INSERT INTO `userarticlemappings`... " />
-            <marker date="1511363146870" expanded="true" signature="1626:1659" ph="SELECT * FRO... userarticlemappings" />
-            <marker date="1511363146870" expanded="true" signature="3307:3364" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1407,55 +1397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-          <folding>
-            <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
-            <marker date="1511369199951" expanded="true" signature="1602:1637" ph="DELETE FROM " />
-            <marker date="1511369199951" expanded="true" signature="2316:2421" ph="UPDATE `arti... " />
-            <marker date="1511369199951" expanded="true" signature="3795:3817" ph="SELECT * FRO... articles" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ASL/UserArticleMappingDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="161" column="55" lean-forward="false" selection-start-line="161" selection-start-column="55" selection-end-line="161" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1469,61 +1414,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <marker date="1511376729423" expanded="true" signature="573:657" ph="INSERT INTO `users`... " />
+            <marker date="1511376729423" expanded="true" signature="1616:1635" ph="SELECT * FRO... users" />
+            <marker date="1511376729423" expanded="true" signature="3338:3370" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://JAVA/Infrastructure.Database">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>Infrastructure.Database</OriginalElement>
           <nodes>
-            <node x="6.386904761904759" y="80.0">Domain.User</node>
-            <node x="41.702380952380956" y="0.0">Domain.Observer</node>
-            <node x="11.5" y="158.0">Domain.ArticleOnSale</node>
-            <node x="28.761904761904766" y="240.0">Domain.Article</node>
+            <node x="55.928571428571416" y="240.0">Domain.User</node>
+            <node x="0.0" y="160.0">Domain.Observer</node>
+            <node x="8.053571428571416" y="0.0">Domain.ArticleOnSale</node>
+            <node x="58.999999999999986" y="80.0">Domain.Article</node>
           </nodes>
           <notes />
           <edges>
             <edge source="Domain.ArticleOnSale" target="Domain.Article">
-              <point x="30.25" y="15.0" />
-              <point x="101.25" y="210.0" />
-              <point x="81.26190476190476" y="210.0" />
-              <point x="10.5" y="-15.0" />
+              <point x="45.375" y="15.0" />
+              <point x="113.92857142857142" y="55.0" />
+              <point x="121.99999999999999" y="55.0" />
+              <point x="21.0" y="-15.0" />
+            </edge>
+            <edge source="Domain.ArticleOnSale" target="Domain.Observer">
+              <point x="-15.125" y="15.0" />
+              <point x="53.428571428571416" y="55.0" />
+              <point x="46.303571428571416" y="55.0" />
+              <point x="46.303571428571416" y="135.0" />
+              <point x="48.49999999999999" y="135.0" />
+              <point x="-7.105427357601002E-15" y="-15.0" />
             </edge>
             <edge source="Domain.User" target="Domain.Observer">
-              <point x="0.0" y="-15.0" />
-              <point x="42.88690476190476" y="55.0" />
-              <point x="65.95238095238096" y="55.0" />
-              <point x="-24.25" y="15.0" />
-            </edge>
-            <edge source="Domain.ArticleOnSale" target="Domain.User">
-              <point x="30.25" y="-15.0" />
-              <point x="101.25" y="135.0" />
-              <point x="67.22023809523809" y="135.0" />
-              <point x="24.33333333333333" y="15.0" />
+              <point x="-18.25" y="-15.0" />
+              <point x="74.17857142857142" y="215.0" />
+              <point x="48.5" y="215.0" />
+              <point x="0.0" y="15.0" />
             </edge>
             <edge source="Domain.Article" target="Domain.ArticleOnSale">
-              <point x="-10.5" y="-15.0" />
-              <point x="60.261904761904766" y="210.0" />
-              <point x="40.75" y="210.0" />
-              <point x="-30.25" y="15.0" />
+              <point x="-21.0" y="-15.0" />
+              <point x="79.99999999999999" y="55.0" />
+              <point x="83.67857142857142" y="55.0" />
+              <point x="15.125" y="15.0" />
             </edge>
             <edge source="Domain.User" target="Domain.Article">
-              <point x="-24.33333333333333" y="15.0" />
-              <point x="18.55357142857143" y="135.0" />
-              <point x="0.0" y="135.0" />
-              <point x="0.0" y="220.0" />
-              <point x="39.261904761904766" y="220.0" />
-              <point x="-31.5" y="-15.0" />
+              <point x="18.25" y="-15.0" />
+              <point x="110.67857142857142" y="215.0" />
+              <point x="121.99999999999999" y="215.0" />
+              <point x="21.0" y="15.0" />
             </edge>
             <edge source="Domain.Observer" target="Domain.Article">
-              <point x="24.25" y="15.0" />
-              <point x="114.45238095238096" y="55.0" />
-              <point x="142.0" y="55.0" />
-              <point x="142.0" y="220.0" />
-              <point x="102.26190476190476" y="220.0" />
-              <point x="31.5" y="-15.0" />
+              <point x="32.33333333333334" y="-15.0" />
+              <point x="-21.0" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-477.5" y="-178.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-463.0" y="2.0" />
           <SelectedNodes>
             <node>Domain.ArticleOnSale</node>
           </SelectedNodes>
@@ -1533,10 +1502,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding>
+            <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
+            <marker date="1511369199951" expanded="true" signature="1602:1637" ph="DELETE FROM " />
+            <marker date="1511369199951" expanded="true" signature="2316:2421" ph="UPDATE `arti... " />
+            <marker date="1511369199951" expanded="true" signature="3795:3817" ph="SELECT * FRO... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="158" column="30" lean-forward="true" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/ArticleOnSale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="408">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding />
         </state>
       </provider>

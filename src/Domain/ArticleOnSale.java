@@ -29,7 +29,7 @@ public abstract class ArticleOnSale {
      * when this article is on sale.
      * @param a article that is on sale
      */
-    public void notifyUser(Article a){
+    public void notifyObservers(Article a){
         for(Observer o : observers){
             o.notify(a);
         }
