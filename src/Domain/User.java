@@ -54,7 +54,7 @@ public class User implements Observer{
     @Override
     public void notify(Article a) {
 
-        System.out.println("Pay attention " + this.username + " Artikel \""+ a.getArticleName() + "\" is on sale.");
+        System.out.println("Email to " + this.username + " has been sent to inform him about the sale on article \""+ a.getArticleName()+"\".");
 
     }
 

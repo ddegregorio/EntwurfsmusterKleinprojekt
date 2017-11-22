@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c81934f-2096-4ddf-8d3e-5f6b143af215" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Infrastructure/ArticleDAOImpl.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Infrastructure/ArticleDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/EntwurfsmusterKleinprojekt/Domain/ArticleTest.class" afterPath="$PROJECT_DIR$/out/test/EntwurfsmusterKleinprojekt/Domain/ArticleTest.class" />
+    <list default="true" id="8c81934f-2096-4ddf-8d3e-5f6b143af215" name="Default" comment="changes method &quot;void setDiscount(boolean discount)&quot;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/Article.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/Article.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/User.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASL/AServiceLayer.java" afterPath="$PROJECT_DIR$/src/ASL/AServiceLayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/Article.java" afterPath="$PROJECT_DIR$/src/Domain/Article.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/User.java" afterPath="$PROJECT_DIR$/src/Domain/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +51,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Article.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -129,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="538">
+              <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -200,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" />
         <option value="$PROJECT_DIR$/src/Domain/Observer.java" />
         <option value="$PROJECT_DIR$/test/Domain/ArticleOnSaleTest.java" />
-        <option value="$PROJECT_DIR$/src/Domain/User.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/test/Domain/UserArticleMappingTest.java" />
         <option value="$PROJECT_DIR$/test/Domain/UserTest.java" />
@@ -221,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/ASL/AServiceLayer.java" />
         <option value="$PROJECT_DIR$/src/Domain/Article.java" />
+        <option value="$PROJECT_DIR$/src/Domain/User.java" />
       </list>
     </option>
   </component>
@@ -553,7 +553,7 @@
       <workItem from="1511361113066" duration="44000" />
       <workItem from="1511361368932" duration="1158000" />
       <workItem from="1511363156244" duration="5586000" />
-      <workItem from="1511369088534" duration="784000" />
+      <workItem from="1511369088534" duration="1113000" />
     </task>
     <task id="LOCAL-00001" summary="adds different methods in ArticleDAOImpl and UserDAOImpl">
       <created>1510965909544</created>
@@ -618,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511369620223</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changes method &quot;void setDiscount(boolean discount)&quot;">
+      <created>1511369906447</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1511369906447</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -654,7 +661,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101822000" />
+    <option name="totallyTimeSpent" value="102151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -667,6 +674,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -676,7 +684,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.28489584" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -716,7 +724,8 @@
     <MESSAGE value="adds the method &quot;Article getArticleByID(int a_id)&quot; to &#10;the class AServiceLayer" />
     <MESSAGE value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;AServiceLayer" />
     <MESSAGE value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;             AServiceLayer" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;             AServiceLayer" />
+    <MESSAGE value="changes method &quot;void setDiscount(boolean discount)&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes method &quot;void setDiscount(boolean discount)&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1366,14 +1375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1407,6 +1408,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
           <folding />
         </state>
       </provider>
