@@ -132,11 +132,7 @@ public class ArticleDAOImpl  implements ArticleDAO {
             while (rs.next())
             {
                 isInList = false;
-                Article articleToInsert = new Article(rs.getInt("a_id"));
-
-                articleToInsert.setArticleName(rs.getString("articlename"));
-                articleToInsert.setPrice(rs.getDouble("price"));
-                articleToInsert.setDiscount(rs.getBoolean("discount"));
+                Article articleToInsert = new Article(rs.getInt("a_id"), rs.getString("articlename"), rs.getDouble("price"), rs.getBoolean("discount"));
 
                 for(Article a : articles){
 

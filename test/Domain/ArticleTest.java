@@ -10,10 +10,7 @@ class ArticleTest {
 
     @BeforeEach
     void setUp() {
-        a = new Article(1000);
-        a.setArticleName("Sachertorte");
-        a.setPrice(3.4);
-        a.setDiscount(true);
+        a = new Article(1000, "Sachertorte", 3.4, true);
     }
 
     @Test

@@ -55,10 +55,7 @@ class ArticleDAOImplTest {
 
         // try three times
         for(int i=0; i<3; i++){
-            article = new Article(3000+i);
-            article.setArticleName("TestArticle");
-            article.setDiscount(true);
-            article.setPrice(3.5);
+            article = new Article(3000+i, "TestArticle", 3.5, true);
 
             if(articleDAO.getArticleById(article.getA_id()) == null){
                 return article;

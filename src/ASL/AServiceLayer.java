@@ -99,20 +99,14 @@ public class AServiceLayer {
     }
 
     public void storeNewArticleInDB(int uid, String articlename, double price, boolean discount){
-        Article a = new Article(uid);
-        a.setArticleName(articlename);
-        a.setPrice(price);
-        a.setDiscount(discount);
+        Article a = new Article(uid, articlename, price, discount);
 
         articleDAO.createNewArticle(a);
     }
 
     public void deleteArticleInDB(int uid, String articlename, double price, boolean discount)
     {
-        Article a = new Article(uid);
-        a.setArticleName(articlename);
-        a.setPrice(price);
-        a.setDiscount(discount);
+        Article a = new Article(uid, articlename, price, discount);
 
         articleDAO.deleteArticle(a);
     }
@@ -159,12 +153,20 @@ public class AServiceLayer {
     {
         Article a = articleDAO.getArticleById(uid);
 
-        if(a.isDiscount()){
-            System.out.println("Article is already on sale!");
-        }else{
-            a.setDiscount(true);
-            System.out.println("Article with Articlenr "+ uid + " has been set on sale.");
+        Article withDiscount = new Article(a.getA_id(), a.getArticleName(), a.getPrice(), true);
+
+        if(a!=null){
+            if(a.isDiscount()){
+                System.out.println("Article is already on sale!");
+            }else{
+                articleDAO.updateArticle(a);
+                System.out.println("Article with Articlenr "+ uid + " has been set on sale.");
+            }
         }
+        else{
+            System.out.println("Can not find article with Nr." +uid);
+        }
+
     }
 
     /**

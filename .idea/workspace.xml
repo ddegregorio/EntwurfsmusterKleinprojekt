@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c81934f-2096-4ddf-8d3e-5f6b143af215" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/DemoApp/Main$1.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/DemoApp/Main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/DemoApp/Main.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/DemoApp/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/Article.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/Article.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/EntwurfsmusterKleinprojekt/Infrastructure/ArticleDAOImplTest.class" afterPath="$PROJECT_DIR$/out/test/EntwurfsmusterKleinprojekt/Infrastructure/ArticleDAOImplTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASL/AServiceLayer.java" afterPath="$PROJECT_DIR$/src/ASL/AServiceLayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/Article.java" afterPath="$PROJECT_DIR$/src/Domain/Article.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ASL/AServiceLayerTest.java" afterPath="$PROJECT_DIR$/test/ASL/AServiceLayerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" afterPath="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Domain/ArticleTest.java" afterPath="$PROJECT_DIR$/test/Domain/ArticleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java" afterPath="$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,8 +60,8 @@
       <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -65,7 +70,7 @@
       <file leaf-file-name="ArticleOnSale.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/ArticleOnSale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="510">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#300#301#0" expanded="true" />
@@ -78,13 +83,13 @@
       <file leaf-file-name="ArticleDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="145" column="40" lean-forward="true" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
+            <state relative-caret-position="164">
+              <caret line="94" column="12" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="102" selection-end-column="13" />
               <folding>
-                <marker date="1511363146868" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
-                <marker date="1511363146868" expanded="true" signature="1602:1637" ph="DELETE FROM " />
-                <marker date="1511363146868" expanded="true" signature="2316:2421" ph="UPDATE `arti... " />
-                <marker date="1511363146868" expanded="true" signature="3795:3817" ph="SELECT * FRO... articles" />
+                <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
+                <marker date="1511369199951" expanded="true" signature="1602:1637" ph="DELETE FROM " />
+                <marker date="1511369199951" expanded="true" signature="2316:2421" ph="UPDATE `arti... " />
+                <marker date="1511369199951" expanded="true" signature="3795:3817" ph="SELECT * FRO... articles" />
               </folding>
             </state>
           </provider>
@@ -93,7 +98,7 @@
       <file leaf-file-name="ResultSetImpl.class" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/Desktop/mysql-connector-java-5.1.44-bin.jar!/com/mysql/jdbc/ResultSetImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="63053">
               <caret line="3755" column="0" lean-forward="false" selection-start-line="3755" selection-start-column="0" selection-end-line="3755" selection-end-column="0" />
               <folding />
             </state>
@@ -103,7 +108,7 @@
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Infrastructure/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="1173">
               <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
@@ -113,7 +118,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DemoApp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="2159">
               <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
                 <element signature="e#3277#3278#0" expanded="true" />
@@ -122,39 +127,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AServiceLayer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AServiceLayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="171" column="10" lean-forward="true" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
-              <folding>
-                <element signature="e#5267#5268#0" expanded="true" />
-                <element signature="e#5321#5322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserArticleMappingDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ASL/UserArticleMappingDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="311">
+              <caret line="155" column="96" lean-forward="false" selection-start-line="155" selection-start-column="96" selection-end-line="155" selection-end-column="96" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserArticleMappingImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Infrastructure/UserArticleMappingImpl.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state relative-caret-position="510">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Domain/ArticleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
               <folding>
-                <marker date="1511363146870" expanded="true" signature="659:722" ph="INSERT INTO `userarticlemappings`... " />
-                <marker date="1511363146870" expanded="true" signature="1626:1659" ph="SELECT * FRO... userarticlemappings" />
-                <marker date="1511363146870" expanded="true" signature="3307:3364" ph="DELETE FROM " />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleDAOImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -199,9 +210,7 @@
         <option value="$PROJECT_DIR$/test/Domain/ArticleOnSaleTest.java" />
         <option value="$PROJECT_DIR$/src/Domain/User.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" />
         <option value="$PROJECT_DIR$/test/Domain/UserArticleMappingTest.java" />
-        <option value="$PROJECT_DIR$/test/Domain/ArticleTest.java" />
         <option value="$PROJECT_DIR$/test/Domain/UserTest.java" />
         <option value="$PROJECT_DIR$/src/DemoApp/Command.java" />
         <option value="$PROJECT_DIR$/src/DemoApp/Parser.java" />
@@ -212,11 +221,13 @@
         <option value="$PROJECT_DIR$/test/Infrastructure/UserArticleMappingImplTest.java" />
         <option value="$PROJECT_DIR$/src/Infrastructure/UserArticleMappingImpl.java" />
         <option value="$PROJECT_DIR$/src/DemoApp/Main.java" />
-        <option value="$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java" />
         <option value="$PROJECT_DIR$/test/ASL/AServiceLayerTest.java" />
-        <option value="$PROJECT_DIR$/src/Domain/Article.java" />
         <option value="$USER_HOME$/Desktop/mysql-connector-java-5.1.44-bin.jar!/com/mysql/jdbc/NonRegisteringDriver.class" />
         <option value="$USER_HOME$/Desktop/mysql-connector-java-5.1.44-bin.jar!/com/mysql/jdbc/ResultSetImpl.class" />
+        <option value="$PROJECT_DIR$/src/Domain/Article.java" />
+        <option value="$PROJECT_DIR$/test/Domain/ArticleTest.java" />
+        <option value="$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/ASL/AServiceLayer.java" />
       </list>
     </option>
@@ -249,6 +260,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,10 +326,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AServiceLayerTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AServiceLayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -495,8 +506,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AServiceLayerTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AServiceLayerTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.AServiceLayerTest.getArticleById" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ArticleOnSaleTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ArticleDAOImplTest" />
@@ -549,7 +560,8 @@
       <workItem from="1511360197197" duration="895000" />
       <workItem from="1511361113066" duration="44000" />
       <workItem from="1511361368932" duration="1158000" />
-      <workItem from="1511363156244" duration="5163000" />
+      <workItem from="1511363156244" duration="5586000" />
+      <workItem from="1511369088534" duration="517000" />
     </task>
     <task id="LOCAL-00001" summary="adds different methods in ArticleDAOImpl and UserDAOImpl">
       <created>1510965909544</created>
@@ -600,13 +612,17 @@
       <option name="project" value="LOCAL" />
       <updated>1511363415449</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;AServiceLayer">
+      <created>1511368696402</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1511368696402</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AServiceLayerTest - 2017.11.22 at 16h 23m 07s.xml">
-      <configuration name="AServiceLayerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AServiceLayerTest - 2017.11.22 at 16h 23m 34s.xml">
       <configuration name="AServiceLayerTest" configurationId="JUnit" />
     </history-entry>
@@ -628,6 +644,9 @@
     <history-entry file="AServiceLayerTest - 2017.11.22 at 17h 36m 48s.xml">
       <configuration name="AServiceLayerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AServiceLayerTest - 2017.11.22 at 17h 38m 33s.xml">
+      <configuration name="AServiceLayerTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="AServiceLayerTest_getArticleById - 2017.11.22 at 16h 29m 43s.xml">
       <configuration name="AServiceLayerTest.getArticleById" configurationId="JUnit" />
     </history-entry>
@@ -636,7 +655,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100615000" />
+    <option name="totallyTimeSpent" value="101555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,21 +678,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.28489584" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28837952" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17643923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39673913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -681,6 +698,8 @@
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32339954" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28837952" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,14 +716,15 @@
     <MESSAGE value="adds different methods in ArticleDAOImpl and UserDAOImpl" />
     <MESSAGE value="adds different test classes" />
     <MESSAGE value="adds the method &quot;Article getArticleByID(int a_id)&quot; to &#10;the class AServiceLayer" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds the method &quot;Article getArticleByID(int a_id)&quot; to &#10;the class AServiceLayer" />
+    <MESSAGE value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;AServiceLayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes method &quot;void setDiscountOnArticle(int uid)&quot; in class &#10;AServiceLayer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Domain/Article.java</url>
-          <line>47</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -722,10 +742,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#5267#5268#0" expanded="true" />
-            <element signature="e#5321#5322#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,10 +758,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#5267#5268#0" expanded="true" />
-            <element signature="e#5321#5322#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,10 +795,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#5267#5268#0" expanded="true" />
-            <element signature="e#5321#5322#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,24 +1240,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/UserArticleMapping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Domain/ArticleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1279,14 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="158" column="9" lean-forward="true" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ASL/ArticleDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1313,8 +1302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/UserArticleMappingImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        <state relative-caret-position="1632">
+          <caret line="101" column="9" lean-forward="false" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
           <folding>
             <marker date="1511363146870" expanded="true" signature="659:722" ph="INSERT INTO `userarticlemappings`... " />
             <marker date="1511363146870" expanded="true" signature="1626:1659" ph="SELECT * FRO... userarticlemappings" />
@@ -1325,7 +1314,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DemoApp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="2159">
           <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding>
             <element signature="e#3277#3278#0" expanded="true" />
@@ -1335,7 +1324,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/Desktop/mysql-connector-java-5.1.44-bin.jar!/com/mysql/jdbc/ResultSetImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="63053">
           <caret line="3755" column="0" lean-forward="false" selection-start-line="3755" selection-start-column="0" selection-end-line="3755" selection-end-column="0" />
           <folding />
         </state>
@@ -1345,13 +1334,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="48" column="65" lean-forward="false" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="1173">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
@@ -1359,7 +1347,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/ArticleOnSale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="510">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#300#301#0" expanded="true" />
@@ -1368,35 +1356,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="145" column="40" lean-forward="true" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
+        <state relative-caret-position="136">
+          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Domain/ArticleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
           <folding>
-            <marker date="1511363146868" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
-            <marker date="1511363146868" expanded="true" signature="1602:1637" ph="DELETE FROM " />
-            <marker date="1511363146868" expanded="true" signature="2316:2421" ph="UPDATE `arti... " />
-            <marker date="1511363146868" expanded="true" signature="3795:3817" ph="SELECT * FRO... articles" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
+    <entry file="file://$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="274">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="94" column="12" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="102" selection-end-column="13" />
+          <folding>
+            <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
+            <marker date="1511369199951" expanded="true" signature="1602:1637" ph="DELETE FROM " />
+            <marker date="1511369199951" expanded="true" signature="2316:2421" ph="UPDATE `arti... " />
+            <marker date="1511369199951" expanded="true" signature="3795:3817" ph="SELECT * FRO... articles" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="171" column="10" lean-forward="true" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
-          <folding>
-            <element signature="e#5267#5268#0" expanded="true" />
-            <element signature="e#5321#5322#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="311">
+          <caret line="155" column="96" lean-forward="false" selection-start-line="155" selection-start-column="96" selection-end-line="155" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

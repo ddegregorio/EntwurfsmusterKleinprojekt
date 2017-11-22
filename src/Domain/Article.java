@@ -6,9 +6,12 @@ public class Article extends ArticleOnSale{
     private double price;
     private boolean discount;
 
-    public Article(int a_id)
+    public Article(int a_id, String articleName, double price, boolean discount)
     {
         this.a_id = a_id;
+        this.articleName = articleName;
+        this.price = price;
+        this.discount = discount;
     }
 
     public void setA_id(int a_id){
