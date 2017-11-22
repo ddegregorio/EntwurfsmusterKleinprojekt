@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c81934f-2096-4ddf-8d3e-5f6b143af215" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/ASL/AServiceLayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/ArticleOnSale.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/ArticleOnSale.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Präsentation Observer Pattern.pptx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/Article.class" afterPath="$PROJECT_DIR$/out/production/EntwurfsmusterKleinprojekt/Domain/Article.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/Article.java" afterPath="$PROJECT_DIR$/src/Domain/Article.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" afterPath="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,17 +50,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Article.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="481">
+              <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleOnSale.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleOnSale.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/ArticleOnSale.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -109,20 +108,6 @@
               </nodes>
               <notes />
               <edges>
-                <edge source="Domain.ArticleOnSale" target="Domain.Article">
-                  <point x="45.375" y="15.0" />
-                  <point x="113.92857142857142" y="55.0" />
-                  <point x="121.99999999999999" y="55.0" />
-                  <point x="21.0" y="-15.0" />
-                </edge>
-                <edge source="Domain.ArticleOnSale" target="Domain.Observer">
-                  <point x="-15.125" y="15.0" />
-                  <point x="53.428571428571416" y="55.0" />
-                  <point x="46.303571428571416" y="55.0" />
-                  <point x="46.303571428571416" y="135.0" />
-                  <point x="48.49999999999999" y="135.0" />
-                  <point x="-7.105427357601002E-15" y="-15.0" />
-                </edge>
                 <edge source="Domain.User" target="Domain.Observer">
                   <point x="-18.25" y="-15.0" />
                   <point x="74.17857142857142" y="215.0" />
@@ -134,16 +119,6 @@
                   <point x="79.99999999999999" y="55.0" />
                   <point x="83.67857142857142" y="55.0" />
                   <point x="15.125" y="15.0" />
-                </edge>
-                <edge source="Domain.User" target="Domain.Article">
-                  <point x="18.25" y="-15.0" />
-                  <point x="110.67857142857142" y="215.0" />
-                  <point x="121.99999999999999" y="215.0" />
-                  <point x="21.0" y="15.0" />
-                </edge>
-                <edge source="Domain.Observer" target="Domain.Article">
-                  <point x="32.33333333333334" y="-15.0" />
-                  <point x="-21.0" y="15.0" />
                 </edge>
               </edges>
               <settings layout="Hierarchic Group" zoom="1.0" x="-463.0" y="2.0" />
@@ -170,8 +145,8 @@
       <file leaf-file-name="AServiceLayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="158" column="30" lean-forward="true" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
+            <state relative-caret-position="2584">
+              <caret line="158" column="30" lean-forward="false" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -180,7 +155,7 @@
       <file leaf-file-name="ArticleDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
+            <state relative-caret-position="1343">
               <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
               <folding>
                 <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
@@ -265,12 +240,12 @@
         <option value="$PROJECT_DIR$/test/Domain/ArticleTest.java" />
         <option value="$PROJECT_DIR$/test/Infrastructure/ArticleDAOImplTest.java" />
         <option value="$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/Domain/Article.java" />
         <option value="$PROJECT_DIR$/src/Domain/User.java" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Database.java" />
         <option value="$PROJECT_DIR$/src/Infrastructure/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/ASL/AServiceLayer.java" />
         <option value="$PROJECT_DIR$/src/Domain/ArticleOnSale.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Article.java" />
       </list>
     </option>
   </component>
@@ -302,7 +277,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,9 +344,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -607,7 +582,8 @@
       <workItem from="1511371327375" duration="350000" />
       <workItem from="1511371711292" duration="84000" />
       <workItem from="1511371821860" duration="1620000" />
-      <workItem from="1511376600269" duration="660000" />
+      <workItem from="1511376600269" duration="1400000" />
+      <workItem from="1511379483067" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="adds different methods in ArticleDAOImpl and UserDAOImpl">
       <created>1510965909544</created>
@@ -700,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511376288569</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="changes method name &quot;notifyUser&quot; in class ArticleOnSale&#10;to notifyObservers">
+      <created>1511377299715</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1511377299715</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -736,7 +719,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104986000" />
+    <option name="totallyTimeSpent" value="105761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -749,35 +732,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.28489584" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32502708" sideWeight="0.71510416" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18496802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18710022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39673913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32339954" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28837952" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -803,7 +785,8 @@
     <MESSAGE value="changes method &quot;void notify(Article a)&quot; in class User.&#10;&#10;A different message will be printed out now if the article is on&#10;sale." />
     <MESSAGE value="adds shopkonditoreidb.sql&#10;&#10;this file is needed to be able to create the database" />
     <MESSAGE value="changes class ArticleOnSale to use the interface Observers" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes class ArticleOnSale to use the interface Observers" />
+    <MESSAGE value="changes method name &quot;notifyUser&quot; in class ArticleOnSale&#10;to notifyObservers" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes method name &quot;notifyUser&quot; in class ArticleOnSale&#10;to notifyObservers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1367,7 +1350,7 @@
         <state relative-caret-position="2159">
           <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding>
-            <element signature="e#3277#3278#0" expanded="true" />
+            <element signature="e#3277#3278#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1391,8 +1374,8 @@
         <state relative-caret-position="136">
           <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
           <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1455,20 +1438,6 @@
           </nodes>
           <notes />
           <edges>
-            <edge source="Domain.ArticleOnSale" target="Domain.Article">
-              <point x="45.375" y="15.0" />
-              <point x="113.92857142857142" y="55.0" />
-              <point x="121.99999999999999" y="55.0" />
-              <point x="21.0" y="-15.0" />
-            </edge>
-            <edge source="Domain.ArticleOnSale" target="Domain.Observer">
-              <point x="-15.125" y="15.0" />
-              <point x="53.428571428571416" y="55.0" />
-              <point x="46.303571428571416" y="55.0" />
-              <point x="46.303571428571416" y="135.0" />
-              <point x="48.49999999999999" y="135.0" />
-              <point x="-7.105427357601002E-15" y="-15.0" />
-            </edge>
             <edge source="Domain.User" target="Domain.Observer">
               <point x="-18.25" y="-15.0" />
               <point x="74.17857142857142" y="215.0" />
@@ -1480,16 +1449,6 @@
               <point x="79.99999999999999" y="55.0" />
               <point x="83.67857142857142" y="55.0" />
               <point x="15.125" y="15.0" />
-            </edge>
-            <edge source="Domain.User" target="Domain.Article">
-              <point x="18.25" y="-15.0" />
-              <point x="110.67857142857142" y="215.0" />
-              <point x="121.99999999999999" y="215.0" />
-              <point x="21.0" y="15.0" />
-            </edge>
-            <edge source="Domain.Observer" target="Domain.Article">
-              <point x="32.33333333333334" y="-15.0" />
-              <point x="-21.0" y="15.0" />
             </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="1.0" x="-463.0" y="2.0" />
@@ -1504,7 +1463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/ArticleDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
+        <state relative-caret-position="1343">
           <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
           <folding>
             <marker date="1511369199951" expanded="true" signature="622:708" ph="INSERT INTO `articles`... " />
@@ -1525,16 +1484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ASL/AServiceLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="158" column="30" lean-forward="true" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="2584">
+          <caret line="158" column="30" lean-forward="false" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1543,6 +1494,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
           <folding />
         </state>
       </provider>

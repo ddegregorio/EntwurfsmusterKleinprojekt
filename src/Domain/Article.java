@@ -55,7 +55,6 @@ public class Article extends ArticleOnSale{
         if(discount){
             notifyObservers(this);
         }
-
     }
 
     /**
